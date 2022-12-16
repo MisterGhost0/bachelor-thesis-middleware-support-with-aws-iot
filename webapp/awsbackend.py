@@ -6,7 +6,7 @@ from datetime import datetime
 from sqlalchemy import true
 
 # Define ENDPOINT, CLIENT_ID, PATH_TO_CERTIFICATE, PATH_TO_PRIVATE_KEY, PATH_TO_AMAZON_ROOT_CA_1, MESSAGE, TOPIC, and RANGE
-ENDPOINT = "a1ns6hrxl9a4xk-ats.iot.us-west-2.amazonaws.com"
+ENDPOINT = "your-aws-api-endpoint.amazonaws.com"
 CLIENT_ID = "Raspberry4Batuhan"
 PATH_TO_CERTIFICATE = "certificates/c56a28ec03c6-certificate.pem.crt"
 PATH_TO_PRIVATE_KEY = "certificates/c56a28ec03c6-private.pem.key"

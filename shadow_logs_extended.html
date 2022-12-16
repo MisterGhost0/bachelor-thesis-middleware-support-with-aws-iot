@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block title %}MQTT-Logs{% endblock %}
+
+
+{% block content %}
+<div class="container mt-5 text-center">
+    <br>
+    <h1 align="center">Broker activities:</h3><br>
+    
+    
+    <form action="/logs" method="GET" >
+        <button type="submit" class="btn btn-primary">
+            Return Back
+        </button>
+    </form>
+    <br>
+
+    <div class="container mt-5 text-left">
+        <pre class="text-left">
+            
+        </pre>
+        {{ data }}
+    </div>
+    
+</div>
+{% endblock %}

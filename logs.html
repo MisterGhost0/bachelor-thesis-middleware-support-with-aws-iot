@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block title %}MQTT-Logging{% endblock %}
+
+
+{% block content %}
+<div class="container mt-5 text-center">
+    <br>
+    <h2 align="center">Monitor customized topic message traffic over AWS cloud</h2>
+    <br>
+    <form action="/logs_extended" method="GET" >
+        <button type="submit" class="btn btn-primary">
+            Custom Topics Logs
+        </button>
+    </form>
+    <br><br>
+    <h2 align="center">Monitor shadow topic message traffic over AWS cloud</h2>
+        <br>
+        <form action="/shadow_logs_extended" method="GET" >
+            <button type="submit" class="btn btn-primary">
+                Shadow Topics Logs
+            </button>
+        </form>
+        <br>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block title %}Control Sparkling System{% endblock %}
+
+
+{% block content %}
+<div class="container mt-5 text-center">
+    <br>
+    <h1 align="center">Control sprinkler system</h1>
+    <br>
+    <form method="POST">
+        <label for="taguid">Send payload to device</label>
+        <input type="text" class="form-control" id="taguid" name="taguid" placeholder="Enter valid key UID">
+        <br>
+        <button type="submit" class="btn btn-primary">
+            Control
+        </button>
+
+    </form>
+
+    <br>
+</div>
+{% endblock %}
